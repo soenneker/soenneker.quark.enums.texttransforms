@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.TextTransforms;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// An HTML CSS keyword set in .NET enumeration form
