@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// An HTML CSS keyword set in .NET enumeration form
 /// </summary>
 [Intellenum<string>]
-public sealed partial class TextTransformKeywordKeyword
+public sealed partial class TextTransformKeyword
 {
     /// <summary>
     /// Converts all text to lowercase.
