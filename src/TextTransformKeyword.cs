@@ -6,22 +6,22 @@ namespace Soenneker.Quark.Enums;
 /// An HTML CSS keyword set in .NET enumeration form
 /// </summary>
 [Intellenum<string>]
-public sealed partial class TextTransform
+public sealed partial class TextTransformKeywordKeyword
 {
     /// <summary>
     /// Converts all text to lowercase.
     /// </summary>
-    public static readonly TextTransform Lowercase = new("lowercase");
+    public static readonly TextTransformKeyword Lowercase = new("lowercase");
 
     /// <summary>
     /// Converts all text to uppercase.
     /// </summary>
-    public static readonly TextTransform Uppercase = new("uppercase");
+    public static readonly TextTransformKeyword Uppercase = new("uppercase");
 
     /// <summary>
     /// Capitalizes the first letter of each word.
     /// </summary>
-    public static readonly TextTransform Capitalize = new("capitalize");
+    public static readonly TextTransformKeyword Capitalize = new("capitalize");
 
-    public static implicit operator TextTransform(GlobalKeyword style) => new(style.Value);
+    public static implicit operator TextTransformKeyword(GlobalKeyword style) => new(style.Value);
 }
