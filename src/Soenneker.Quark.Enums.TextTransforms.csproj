@@ -16,7 +16,7 @@
         <AssemblyName>Soenneker.Quark.Enums.TextTransforms</AssemblyName>
         <PackageId>Soenneker.Quark.Enums.TextTransforms</PackageId>
         <PackageTags>quark enums texttransforms css html enum texttransform csharp dotnet c# .net</PackageTags>
-        <Copyright>Copyright © 2025 Jake Soenneker</Copyright>
+        <Copyright>Copyright © 2025-2026 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
