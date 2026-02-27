@@ -6,6 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// An HTML CSS keyword set in .NET enumeration form
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public sealed partial class TextTransformKeyword
 {
     /// <summary>
@@ -22,6 +23,4 @@ public sealed partial class TextTransformKeyword
     /// Capitalizes the first letter of each word.
     /// </summary>
     public static readonly TextTransformKeyword Capitalize = new("capitalize");
-
-    public static implicit operator TextTransformKeyword(GlobalKeyword style) => new(style.Value);
 }
