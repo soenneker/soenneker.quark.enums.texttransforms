@@ -3,21 +3,21 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Quark;
 
 /// <summary>
-/// Represents the text transform enum.
+/// Represents a text-transform token used by Quark styles.
 /// </summary>
 [EnumValue<string>]
 public sealed partial class TextTransformEnum
 {
     /// <summary>
-    /// The lowercase.
+    /// Displays letters in lowercase.
     /// </summary>
     public static readonly TextTransformEnum Lowercase = new("lowercase");
     /// <summary>
-    /// The uppercase.
+    /// Displays letters in uppercase.
     /// </summary>
     public static readonly TextTransformEnum Uppercase = new("uppercase");
     /// <summary>
-    /// The capitalize.
+    /// Capitalizes the first letter of each word.
     /// </summary>
     public static readonly TextTransformEnum Capitalize = new("capitalize");
 }
